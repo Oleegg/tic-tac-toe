@@ -10,8 +10,33 @@
 </head>
 
 <body>
-    <h1>Tic-Tac-Toe</h1>
+    <div class="survey">
+        <div class="alert__name"><button class="alert__name__btn">Хорошо, введу имя</button><span
+                class="alert__name__text">Введите
+                имя</span></div>
+        <div class="survey__wrapper">
+            <h3 class="survey__title">Предлагаю Вам игру крестики-нолики</h3>
+            <div class="survey__name">
+                <span class="survey__name__title">Ваше имя:</span>
+                <input type="text" class="survey__name__text" autofocus autocomplete="on">
+            </div>
+            <div class="survey__var">
+                <span class="survey__text">Какой режим игры?</span>
+                <div class="var__questions">
+                    <div class="survey__var__wrapp">
+                        <span class="mode">Против компьютера</span>
+                        <button class="btn__one survey__btn">Компьютер</button>
+                    </div>
+                    <div class="survey__var__wrapp">
+                        <span class="mode">Против другого человека</span>
+                        <button class="btn__two survey__btn">Человек</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="wrapper">
+        <h1 class="wrapper__title">Tic-Tac-Toe</h1>
         <div class="playing__wrapper">
             <div class="playing__box"></div>
             <div class="playing__box"></div>
